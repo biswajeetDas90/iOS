@@ -1,0 +1,390 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ADA2510E20F8F0F400D1E16B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ADA2510D20F8F0F400D1E16B /* AppDelegate.m */; };
+		ADA2511120F8F0F400D1E16B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADA2511020F8F0F400D1E16B /* ViewController.m */; };
+		ADA2511420F8F0F400D1E16B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADA2511220F8F0F400D1E16B /* Main.storyboard */; };
+		ADA2511620F8F0F600D1E16B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADA2511520F8F0F600D1E16B /* Assets.xcassets */; };
+		ADA2511920F8F0F600D1E16B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADA2511720F8F0F600D1E16B /* LaunchScreen.storyboard */; };
+		ADA2511C20F8F0F600D1E16B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ADA2511B20F8F0F600D1E16B /* main.m */; };
+		ADA2512420F8F17E00D1E16B /* Node.m in Sources */ = {isa = PBXBuildFile; fileRef = ADA2512320F8F17E00D1E16B /* Node.m */; };
+		ADA2514D2100988D00D1E16B /* Node.xib in Resources */ = {isa = PBXBuildFile; fileRef = ADA2514C2100988D00D1E16B /* Node.xib */; };
+		ADA251502100B14300D1E16B /* CartControl.m in Sources */ = {isa = PBXBuildFile; fileRef = ADA2514F2100B14300D1E16B /* CartControl.m */; };
+		ADA251522100B16B00D1E16B /* CartControl.xib in Resources */ = {isa = PBXBuildFile; fileRef = ADA251512100B16B00D1E16B /* CartControl.xib */; };
+		ADA2515D2105D42600D1E16B /* blue_dot.png in Resources */ = {isa = PBXBuildFile; fileRef = ADA2515A2105D42600D1E16B /* blue_dot.png */; };
+		ADA251602105D76600D1E16B /* red_dot.png in Resources */ = {isa = PBXBuildFile; fileRef = ADA2515E2105D76600D1E16B /* red_dot.png */; };
+		ADA251612105D76600D1E16B /* grey_dot.png in Resources */ = {isa = PBXBuildFile; fileRef = ADA2515F2105D76600D1E16B /* grey_dot.png */; };
+		ADA251802105ED6B00D1E16B /* SampleTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADA2517E2105ED6B00D1E16B /* SampleTableViewController.m */; };
+		ADA251812105ED6B00D1E16B /* SampleTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ADA2517F2105ED6B00D1E16B /* SampleTableViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		ADA2510920F8F0F400D1E16B /* CartControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CartControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADA2510C20F8F0F400D1E16B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ADA2510D20F8F0F400D1E16B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ADA2510F20F8F0F400D1E16B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		ADA2511020F8F0F400D1E16B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		ADA2511320F8F0F400D1E16B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ADA2511520F8F0F600D1E16B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ADA2511820F8F0F600D1E16B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ADA2511A20F8F0F600D1E16B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADA2511B20F8F0F600D1E16B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ADA2512220F8F17E00D1E16B /* Node.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Node.h; sourceTree = "<group>"; };
+		ADA2512320F8F17E00D1E16B /* Node.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Node.m; sourceTree = "<group>"; };
+		ADA2514C2100988D00D1E16B /* Node.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Node.xib; sourceTree = "<group>"; };
+		ADA2514E2100B14300D1E16B /* CartControl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CartControl.h; sourceTree = "<group>"; };
+		ADA2514F2100B14300D1E16B /* CartControl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CartControl.m; sourceTree = "<group>"; };
+		ADA251512100B16B00D1E16B /* CartControl.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CartControl.xib; sourceTree = "<group>"; };
+		ADA2515A2105D42600D1E16B /* blue_dot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blue_dot.png; sourceTree = "<group>"; };
+		ADA2515E2105D76600D1E16B /* red_dot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = red_dot.png; sourceTree = "<group>"; };
+		ADA2515F2105D76600D1E16B /* grey_dot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = grey_dot.png; sourceTree = "<group>"; };
+		ADA2517D2105ED6B00D1E16B /* SampleTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SampleTableViewController.h; sourceTree = "<group>"; };
+		ADA2517E2105ED6B00D1E16B /* SampleTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SampleTableViewController.m; sourceTree = "<group>"; };
+		ADA2517F2105ED6B00D1E16B /* SampleTableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SampleTableViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ADA2510620F8F0F400D1E16B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ADA2510020F8F0F400D1E16B = {
+			isa = PBXGroup;
+			children = (
+				ADA2510B20F8F0F400D1E16B /* CartControl */,
+				ADA2510A20F8F0F400D1E16B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ADA2510A20F8F0F400D1E16B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ADA2510920F8F0F400D1E16B /* CartControl.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ADA2510B20F8F0F400D1E16B /* CartControl */ = {
+			isa = PBXGroup;
+			children = (
+				ADA2510C20F8F0F400D1E16B /* AppDelegate.h */,
+				ADA2510D20F8F0F400D1E16B /* AppDelegate.m */,
+				ADA2510F20F8F0F400D1E16B /* ViewController.h */,
+				ADA2511020F8F0F400D1E16B /* ViewController.m */,
+				ADA2511220F8F0F400D1E16B /* Main.storyboard */,
+				ADA2511520F8F0F600D1E16B /* Assets.xcassets */,
+				ADA2511720F8F0F600D1E16B /* LaunchScreen.storyboard */,
+				ADA2511A20F8F0F600D1E16B /* Info.plist */,
+				ADA2511B20F8F0F600D1E16B /* main.m */,
+				ADA2512220F8F17E00D1E16B /* Node.h */,
+				ADA2514C2100988D00D1E16B /* Node.xib */,
+				ADA2512320F8F17E00D1E16B /* Node.m */,
+				ADA2514E2100B14300D1E16B /* CartControl.h */,
+				ADA251512100B16B00D1E16B /* CartControl.xib */,
+				ADA2515F2105D76600D1E16B /* grey_dot.png */,
+				ADA2515E2105D76600D1E16B /* red_dot.png */,
+				ADA2514F2100B14300D1E16B /* CartControl.m */,
+				ADA2515A2105D42600D1E16B /* blue_dot.png */,
+				ADA2517D2105ED6B00D1E16B /* SampleTableViewController.h */,
+				ADA2517E2105ED6B00D1E16B /* SampleTableViewController.m */,
+				ADA2517F2105ED6B00D1E16B /* SampleTableViewController.xib */,
+			);
+			path = CartControl;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ADA2510820F8F0F400D1E16B /* CartControl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADA2511F20F8F0F600D1E16B /* Build configuration list for PBXNativeTarget "CartControl" */;
+			buildPhases = (
+				ADA2510520F8F0F400D1E16B /* Sources */,
+				ADA2510620F8F0F400D1E16B /* Frameworks */,
+				ADA2510720F8F0F400D1E16B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CartControl;
+			productName = CartControl;
+			productReference = ADA2510920F8F0F400D1E16B /* CartControl.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ADA2510120F8F0F400D1E16B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Biswajeet Das";
+				TargetAttributes = {
+					ADA2510820F8F0F400D1E16B = {
+						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 0940;
+					};
+				};
+			};
+			buildConfigurationList = ADA2510420F8F0F400D1E16B /* Build configuration list for PBXProject "CartControl" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ADA2510020F8F0F400D1E16B;
+			productRefGroup = ADA2510A20F8F0F400D1E16B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ADA2510820F8F0F400D1E16B /* CartControl */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ADA2510720F8F0F400D1E16B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADA2511920F8F0F600D1E16B /* LaunchScreen.storyboard in Resources */,
+				ADA2511620F8F0F600D1E16B /* Assets.xcassets in Resources */,
+				ADA251602105D76600D1E16B /* red_dot.png in Resources */,
+				ADA2511420F8F0F400D1E16B /* Main.storyboard in Resources */,
+				ADA251612105D76600D1E16B /* grey_dot.png in Resources */,
+				ADA251812105ED6B00D1E16B /* SampleTableViewController.xib in Resources */,
+				ADA251522100B16B00D1E16B /* CartControl.xib in Resources */,
+				ADA2515D2105D42600D1E16B /* blue_dot.png in Resources */,
+				ADA2514D2100988D00D1E16B /* Node.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ADA2510520F8F0F400D1E16B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADA2511120F8F0F400D1E16B /* ViewController.m in Sources */,
+				ADA251802105ED6B00D1E16B /* SampleTableViewController.m in Sources */,
+				ADA251502100B14300D1E16B /* CartControl.m in Sources */,
+				ADA2511C20F8F0F600D1E16B /* main.m in Sources */,
+				ADA2510E20F8F0F400D1E16B /* AppDelegate.m in Sources */,
+				ADA2512420F8F17E00D1E16B /* Node.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ADA2511220F8F0F400D1E16B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADA2511320F8F0F400D1E16B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ADA2511720F8F0F600D1E16B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADA2511820F8F0F600D1E16B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ADA2511D20F8F0F600D1E16B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		ADA2511E20F8F0F600D1E16B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ADA2512020F8F0F600D1E16B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				INFOPLIST_FILE = CartControl/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jio.CartControl;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CartControl/CartControl-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ADA2512120F8F0F600D1E16B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				INFOPLIST_FILE = CartControl/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jio.CartControl;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CartControl/CartControl-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ADA2510420F8F0F400D1E16B /* Build configuration list for PBXProject "CartControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADA2511D20F8F0F600D1E16B /* Debug */,
+				ADA2511E20F8F0F600D1E16B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADA2511F20F8F0F600D1E16B /* Build configuration list for PBXNativeTarget "CartControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADA2512020F8F0F600D1E16B /* Debug */,
+				ADA2512120F8F0F600D1E16B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ADA2510120F8F0F400D1E16B /* Project object */;
+}
